@@ -37,6 +37,6 @@ public class TugasBioskop10 {
             }
 
         } while(true);
-        masuk.close();
+       
     }
 }
