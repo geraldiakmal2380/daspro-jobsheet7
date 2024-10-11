@@ -7,13 +7,14 @@ public class SiakadWhile10 {
     public static void main(String[] args) {
 
         Scanner masuk = new Scanner(System.in);
-        int jmlhmhsiswa,n=0;
+        int jmlhmhsiswa,n=1;
         double nilai;
         System.out.print("masukan jjumlah mahasiswa : ");
         jmlhmhsiswa = masuk.nextInt();
 
 
         while (n < jmlhmhsiswa){
+            System.out.print(n);
             System.out.print("Masukan nilai mahasiswa ke-"+(n+1)+" :");
             nilai = masuk.nextDouble();
             if (nilai>=0 && nilai<=100){
